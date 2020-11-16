@@ -41,12 +41,12 @@ adverb2 = input ("Enter another adverb: ")
 
 month = input ("What month is it? ")
 
-day = input ("What day of the monthe is it?(numerical form) ").upper
+day = input ("What day of the month is it?(numerical form) ")
 
 
 
 
 print ("\n\n Hello my fellow brainiacs, this is "+name1+" its "+number1+" o-clock, and I'm back with your daily dose of fun facts. Today's topic is dinosaurs!")
 print (f"Did you know that archeologists recently found a new set of {plural_noun1} in {location1} for the Brachiosaurus. \nThey also discovered a new dinosaur called {name2}iasaurous dinosaur with {large_number} bones. This new {name2}iasaurous is very {adjective1} and {adjective2} and is presumed to have {pt_verb1} around the world in {year1} BCE. Its diet consisted of {food1}, {food2}, and {food3}. It seemed to really enjoy {adverb1} on the {noun1} during the daytime, and {adverb2} during the nighttime.")
-print("\nThank you for tuning in, I've been "+name1+", have a good rest of "+month+" "+day+"th(st,nd,rd).")
+print(f"\nThank you for tuning in, I've been {name1}, have a good rest of {month} {day}th(st,nd,rd).")
 
